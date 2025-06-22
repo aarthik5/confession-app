@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "527085377276",
+    "project_id": "confess-wall-9c07b",
+    "storage_bucket": "confess-wall-9c07b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527085377276:android:1adf051561fbd57015a979",
+        "android_client_info": {
+          "package_name": "com.example.confess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOyn5xLnSx0rnvZjkVRi1VKTCKqFbKvYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+name: confess
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.14.0
+  cloud_firestore: ^5.6.9
+  firebase_auth: ^5.6.0
+  provider: ^6.1.5
+  fluttertoast: ^8.2.12
+  uuid: ^4.5.1
+  google_fonts: ^6.2.1
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.4
+  timeago: ^3.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/avow.png
+    - assets/love-letter.png
+
+flutter_native_splash:
+  color: "#121212"
+  image: assets/avow.png
+  android: true
+  ios: false
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/love-letter.png"
